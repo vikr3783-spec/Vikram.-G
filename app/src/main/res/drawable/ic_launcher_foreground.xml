@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft ambient glow behind heart -->
+    <path
+        android:pathData="M54,42 C50,30 33,30 29,42 C23,60 54,76 54,76 C54,76 85,60 79,42 C75,30 58,30 54,42 Z"
+        android:strokeWidth="5"
+        android:strokeColor="#33FF6B8B"
+        android:fillColor="#00000000" />
+
+    <!-- Main romantic heart shape with rose gold to warm crimson gradient -->
+    <path
+        android:pathData="M54,45 C50,33 34,33 30,44 C24,61 54,77 54,77 C54,77 84,61 78,44 C74,33 58,33 54,45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="33"
+                android:endX="78"
+                android:endY="77"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF176" />
+                <item android:offset="0.25" android:color="#FF6584" />
+                <item android:offset="0.75" android:color="#E91E63" />
+                <item android:offset="1.0" android:color="#9C27B0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner interlocking accent curve -->
+    <path
+        android:pathData="M44,40 C37,36 33,42 35,49 C39,59 54,71 54,71"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Prime Crown / Sparkle star at the top center -->
+    <path
+        android:pathData="M54,23 L56,28 L61,28 L57,31 L59,36 L54,33 L49,36 L51,31 L47,28 L52,28 Z"
+        android:fillColor="#FFE082" />
+
+    <!-- Mini sparkle star top right -->
+    <path
+        android:pathData="M73,30 L74,33 L77,33 L74.5,35 L75.5,38 L73,36 L70.5,38 L71.5,35 L69,33 L72,33 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Mini sparkle dot left -->
+    <path
+        android:pathData="M35,32 A1.8,1.8 0 1,1 35,28.4 A1.8,1.8 0 1,1 35,32 Z"
+        android:fillColor="#FFE0B2" />
+</vector>

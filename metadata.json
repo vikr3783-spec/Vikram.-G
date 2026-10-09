@@ -1,0 +1,6 @@
+{
+  "name": "Love Prime",
+  "description": "Premium couples romance companion featuring prime anniversary counters, daily intimate check-ins, love coupons, and date night ideas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
